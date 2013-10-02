@@ -1,5 +1,7 @@
 package coding.gianci15;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -35,8 +37,26 @@ public class App
 	 public static void main( String[] args )
 	    {
 	       System.out.print("\n¡¡¡ Hello Word !!!\n\n");
+	       	       
+		   int a,b;
+	 
+	       Scanner scanIn = new Scanner(System.in);
+	       System.out.println("Ingrese El primer Numero : ");
+	       a =Integer.parseInt(scanIn.nextLine());
+	 	  	
+	       System.out.println("Ingrese El Segundo Numero : ");
+	 	   b =Integer.parseInt(scanIn.nextLine());
+	 	   scanIn.close();
+	 	   
+	       System.out.println("El resultado de la sume es :"+suma(a,b));
+
  
 	    }
+
+	private static int suma(int a, int b) {
+
+		return (a+b);
+	}
 
 	public String HolaMundo() {
 		
