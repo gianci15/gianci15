@@ -4,8 +4,8 @@ import javax.swing.JOptionPane;
 
 /**
  * Hello world! in maven  comando : clean compile exec:java
- * y añadir al pom 
- 
+ * y cambiar en pom Junit version 3.8 a 4.0 y añadir al pom  
+  
  <build>
         <plugins>
             <plugin>
@@ -37,5 +37,10 @@ public class App
 	       System.out.print("\n¡¡¡ Hello Word !!!\n\n");
  
 	    }
+
+	public String HolaMundo() {
+		
+		return "Hola  Mundo";
+	}
 
 }

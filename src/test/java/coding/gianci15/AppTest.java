@@ -7,13 +7,27 @@ import org.junit.Test;
 
 public class AppTest {
 
+	static App aplicacion;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		
+		// Arrange
+		aplicacion =new App();
 	}
 
 	@Test
 	public void test() {
 		assert(true);
+	}
+	
+	@Test
+	public void testHolaMundo() {
+		
+		// act 
+		String prueba= aplicacion.HolaMundo();
+		
+		// Assert
+		assertEquals("El resultado deberia ser : Hola Mundo","Hola Mundo",prueba);
 	}
 
 }
