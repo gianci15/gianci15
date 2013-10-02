@@ -34,7 +34,7 @@ public class App
 {
 	 public static void main( String[] args )
 	    {
-	       JOptionPane.showMessageDialog(null,"Hola Mundo");
+	       System.out.print("Hello Word);
  
 	    }
 
