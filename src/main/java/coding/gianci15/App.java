@@ -40,7 +40,7 @@ public class App
 
 	public String HolaMundo() {
 		
-		return "Hola  Mundo";
+		return "Hola Mundo";
 	}
 
 }
