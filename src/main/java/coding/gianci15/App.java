@@ -37,7 +37,7 @@ public class App
 	 public static void main( String[] args )
 	    {
 	       System.out.print("\n¡¡¡ Hello Word !!!\n\n");
-	       	       
+/*	       	       
 		   int a,b;
 	 
 	       Scanner scanIn = new Scanner(System.in);
@@ -49,7 +49,7 @@ public class App
 	 	   scanIn.close();
 	 	   
 	       System.out.println("El resultado de la sume es :"+suma(a,b));
-
+*/
  
 	    }
 
