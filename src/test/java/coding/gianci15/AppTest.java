@@ -21,6 +21,11 @@ public class AppTest {
 	}
 	
 	@Test
+	public void test2() {
+		assert(false);
+	}
+	
+	@Test
 	public void testHolaMundo() {
 		
 		// act 
