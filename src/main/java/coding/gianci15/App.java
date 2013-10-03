@@ -13,8 +13,7 @@ import javax.swing.JOptionPane;
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <executions>
+                 <executions>
                     <execution>
                         <goals>
                             <goal>java</goal>
