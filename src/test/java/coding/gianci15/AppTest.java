@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-//import org.junit.runner.RunWith;
+
+
 public class AppTest {
 
 	static App aplicacion;
@@ -22,8 +23,14 @@ public class AppTest {
 	
 	@Test
 	public void test2() {
-		assert(false);
+		fail();
 	}
+	
+	@Test
+	public void test3() {
+		fail();
+	}
+
 	
 	@Test
 	public void testHolaMundo() {
