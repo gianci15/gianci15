@@ -19,7 +19,11 @@ public class AppTest {
 	public void test() {
 		assert(true);
 	}
-
+	
+	@Test
+	public void test2() {
+		assert(false);
+	}
 	
 	@Test
 	public void testHolaMundo() {
