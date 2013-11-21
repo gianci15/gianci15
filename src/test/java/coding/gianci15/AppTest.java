@@ -22,7 +22,7 @@ public class AppTest {
 	public void testSuma() {
 	
 	resultado=aplicacion.suma(5,9);
-	assertEquals("La suma deberia ser :9","9",resultado);
+	assertEquals("La suma deberia ser :14","14",resultado);
 		
 		
 	}
