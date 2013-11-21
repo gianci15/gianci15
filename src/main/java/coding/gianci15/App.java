@@ -72,6 +72,11 @@ public class App
 
                 return ""+(a*b);
         }
+        
+        public String division(int a, int b) {
+
+                return ""+(a/b);
+        }
 
 
 }
