@@ -51,5 +51,13 @@ public class AppTest {
 		// Assert
 		assertEquals("El resultado deberia ser : Hola Mundo","Hola Mundo",prueba);
 	}
+	
+	@Test
+	public void testDivision(){
+	
+	resultado=aplicacion.division(10,5);
+	assertEquals("La multiplicacion deberia ser :2","2",resultado);
+		
+	}
 
 }
