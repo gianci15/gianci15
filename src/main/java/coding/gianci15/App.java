@@ -62,6 +62,11 @@ public class App
 
 		return ""+(a+b);
 	}
+	
+	public  String resta(int a, int b) {
+
+		return ""+(a+b);
+	}
 
 
 }
