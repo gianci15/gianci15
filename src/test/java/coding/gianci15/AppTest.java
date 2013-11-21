@@ -9,6 +9,8 @@ import org.junit.Test;
 public class AppTest {
 
 	static App aplicacion;
+	String resultado;
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		
@@ -17,8 +19,12 @@ public class AppTest {
 	}
 
 	@Test
-	public void test() {
-		assert(true);
+	public void testSuma() {
+	
+	resultado=aplicacion.suma(5,9);
+	assertEquals("La suma deberia ser :9","9",resultado);
+		
+		
 	}
 	
 	@Test
