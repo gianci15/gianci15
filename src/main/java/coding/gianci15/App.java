@@ -65,7 +65,7 @@ public class App
 	
 	public  String resta(int a, int b) {
 
-		return ""+(a+b);
+		return ""+(a-b);
 	}
 
 
