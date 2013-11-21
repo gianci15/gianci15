@@ -60,7 +60,7 @@ public class App
 
 	public  String suma(int a, int b) {
 
-		return "";
+		return ""+(a+b);
 	}
 
 
