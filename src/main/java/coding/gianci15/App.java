@@ -67,6 +67,11 @@ public class App
 
 		return ""+(a-b);
 	}
+	
+	public String multiplicacion(int a, int b) {
+
+                return ""+(a*b);
+        }
 
 
 }
