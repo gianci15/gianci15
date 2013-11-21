@@ -21,12 +21,10 @@ public class AppTest {
 	@Test
 	public void testSuma() {
 
- 	assert(true);
-        /*	
+ 	
 	resultado=aplicacion.suma(5,9);
 	assertEquals("La suma deberia ser :14","14",resultado);
-        */
-		
+    
 	}
 	
 	@Test
