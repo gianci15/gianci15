@@ -2,7 +2,6 @@ package coding.gianci15;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
 
 
 /**
@@ -52,15 +51,17 @@ public class App
 */
  
 	    }
-
-	private static int suma(int a, int b) {
-
-		return (a+b);
-	}
-
+	    
+	    
 	public String HolaMundo() {
 		
 		return "Hola Mundo";
 	}
+
+	public  String suma(int a, int b) {
+
+		return ""+(a+b);
+	}
+
 
 }
