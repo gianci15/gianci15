@@ -36,8 +36,9 @@ public class AppTest {
 	}
 	
 	@Test
-	public void test3() {
-		assert(true);
+	public void testMultiplicacion() {
+	resultado=aplicacion.multiplicacion(5,9);
+	assertEquals("La multiplicacion deberia ser :45","45",resultado);
 	}
 
 	
