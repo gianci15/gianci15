@@ -30,7 +30,7 @@ public class AppTest {
 	@Test
 	public void testResta() {
 		
-	resultado=aplicacion.suma(9,5);
+	resultado=aplicacion.resta(9,5);
 	assertEquals("La resta deberia ser :4","4",resultado);
 
 	}
