@@ -1,3 +1,3 @@
-gianci15
+Repositorio Jenkins
 ========
-Tales 
+Taller de Integracion continua
